@@ -1,0 +1,15 @@
+seed: 1
+device: 'cuda'
+output_path: './pnp/results'
+
+image_path: './pnp/data/example.png'
+latents_path: './pnp/latents_forward'
+
+sd_version: 'runwayml/stable-diffusion-v1-5'
+guidance_scale: 7.5
+n_timesteps: 100
+prompt: ''
+negative_prompt: ''
+
+pnp_attn_t: 0.5
+pnp_f_t: 0.6
